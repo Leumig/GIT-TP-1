@@ -1,1 +1,6 @@
-Diego Coria  IP:186.139.10.83  22:42
+Alfa: Diego Coria   //  IP:186.139.10.83  //  Hora: 22:42
+
+Beta: Miguel Ángel Gil   //  IP: 192.168.0.6  //  Hora:  1:47 a.m.
+
+Gamma: Laura Colque   //  IP: 192.168.56.1  //  Hora: 23:57
+

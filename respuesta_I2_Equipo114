@@ -1,27 +1,32 @@
 Participantes: Diego Coria, Gil Miguel, Laura Colque
 
 Respuestas:
+a) Lo actualizo utilizando los siguientes comandos:
+git remote add -nombre- -link del repositorio original-
+git fetch -nombre-
+git checkout master
+git marge -nombre-/master
+-En caso que te muestre fatal: refusing to merge unrelated histories.
+-Es porque hubo un error en fusionar dos proyectos no relacinados en una sola rama. Entonces ejecutar el siguiente comando para solucionarlo.
+git pull (link del repositorio original) master (la rama que deseamos fusionar) --allow-unrelated-histories
+-Con esto le decimos que queremos fusionar las ramas no relacionadas.
+git push -f origin master
 
+b) Si pudo actualizarlo.
 
+c) Si pudo actualizarlo.
 
+d) No se pierden si los mezclo con el comando git merge.
 
-
-
-
-
-
-
-
-
-E-
-Miguel Ángel Gil (BETA): Creó los archivos fork.txt, nuevoDato.txt en el repositorio
+e) Miguel Ángel Gil (BETA): Creó los archivos fork.txt, nuevoDato.txt en el repositorio
 Laura Colque(GAMMA): Hizo fork al repositorio original, y modificó los archivos
 Diego Coria(ALFA): Hizo fork al repositorio original, y modificó los archivos
 Miguel Ángel Gil(BETA): Creó los archivos nuevoDato.txt y respuesta_I2_Equipo114 en el repositorio
 Laura Colque(GAMMA) y Diego Coria(ALFA): Actualizaron sus repositorios con el original mediante los comandos
-git remote add upstream https...
-git fetch upstream
+git remote add -nombre- https...
+git fetch -nombre-
 git checkout master
-git merge upstream/master
+git merge -nombre-/master
 Modificaron los archivos, y le hicieron git push -f origin master para subirlo.
-Miguel Ángel Gil (BETA): Actualizó su repositorio (original) con los repositorios de ALFA y GAMMA (haciendo lo anterior, git merge). Y agregó su respuesta, después, lo subió con el git push.
+Miguel Ángel Gil (BETA): Actualizó su repositorio (original) con los repositorios de ALFA y GAMMA haciendo lo mismo que hicieron ALFA y GAMMA anteriormente, es decir, con con el comando git remote add (a los dos) y después git merge (a los dos).
+Finalmente agregó su respuesta, y lo subió con el git add, commit, y push.
