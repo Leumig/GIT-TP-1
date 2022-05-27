@@ -1,3 +1,27 @@
 Participantes: Diego Coria, Gil Miguel, Laura Colque
 
 Respuestas:
+
+
+
+
+
+
+
+
+
+
+
+
+E-
+Miguel Ángel Gil (BETA): Creó los archivos fork.txt, nuevoDato.txt en el repositorio
+Laura Colque(GAMMA): Hizo fork al repositorio original, y modificó los archivos
+Diego Coria(ALFA): Hizo fork al repositorio original, y modificó los archivos
+Miguel Ángel Gil(BETA): Creó los archivos nuevoDato.txt y respuesta_I2_Equipo114 en el repositorio
+Laura Colque(GAMMA) y Diego Coria(ALFA): Actualizaron sus repositorios con el original mediante los comandos
+git remote add upstream https...
+git fetch upstream
+git checkout master
+git merge upstream/master
+Modificaron los archivos, y le hicieron git push -f origin master para subirlo.
+Miguel Ángel Gil (BETA): Actualizó su repositorio (original) con los repositorios de ALFA y GAMMA (haciendo lo anterior, git merge). Y agregó su respuesta, después, lo subió con el git push.
