@@ -1,6 +1,6 @@
 # 📝 Trabajo de Git - Parte 1
 
-Este repositorio contiene una simulación de trabajo en equipo (3 personas) en Git, realizada en la materia "Sistemas Operativos" de la Universidad Tecnológica Nacional, Facultad Regional Avellaneda.
+Este repositorio contiene una simulación de trabajo en equipo (3 personas) en Git, realizada en la materia "Sistemas Operativos", cuando hice la carrera 'Tecnicatura Universitaria en Programación' en la Universidad Tecnológica Nacional, Facultad Regional Avellaneda.
 
 ## 📚 Descripción
 
